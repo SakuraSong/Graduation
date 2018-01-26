@@ -11,7 +11,7 @@ public class Client {
     public static final int PORT = 12345;//服务器端口号    
       
     public static void main(String[] args) {    
-        System.out.println("客户端启动...");    
+        System.out.println("客户端启动.........");    
         System.out.println("当接收到服务器端字符为 \"OK\" 的时候, 客户端将终止\n");   
         while (true) {    
             Socket socket = null;  
